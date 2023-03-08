@@ -21,18 +21,10 @@ const Translator = (
     need while loop that scans every character from i until a space
     and counts then check if thats in it.
   */
-  console.clear();
   while (i < input.length) {
-    console.log('starting the loop');
     let increment = i + 1;
     while (increment <= input.length) {
-      console.log(
-        'checking',
-        input.substring(i, increment),
-        input.substring(i, increment).split('')
-      );
       if (input.substring(i, increment).split('').includes(' ')) {
-        console.log('ending', input.substring(i, increment));
         break;
       } else {
         increment++;
@@ -40,14 +32,7 @@ const Translator = (
     }
     console.log('incremenet ', increment, i);
     if (increment > i + 1) {
-      console.log(
-        'charecters until space',
-        i,
-        increment,
-        input.substring(i, increment)
-      );
       const mappingKeyDynamic = mapping[input.substring(i, increment).trim()];
-      console.log('mapping key found is', mappingKeyDynamic);
       if (mappingKeyDynamic) {
         if (
           singleLetter &&
@@ -57,11 +42,8 @@ const Translator = (
           result.push(mappingKeyDynamic);
         } else if (!singleLetter) {
           result.push(mappingKeyDynamic);
-          
         }
         i += increment - i;
-
-        console.log(i, increment - i);
         continue;
       }
     }

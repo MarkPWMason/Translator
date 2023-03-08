@@ -27,7 +27,7 @@ export const InputPage = () => {
         <button className={styles.btn} onClick={() => {
         scroll.scrollToBottom({
         });
-      }}>Back to start</button>
+      }}>To Translator</button>
       </div>
     </div>
   );

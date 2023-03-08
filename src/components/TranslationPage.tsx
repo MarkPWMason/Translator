@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Translator, {
   getUnicodeMappings,
   getSoundMappings,
@@ -12,16 +12,28 @@ export const TranslationPage = () => {
 
   const [keyToTranslate, setKeyToTranslate] = useState<any[]>([]);
 
+  const inputRef = useRef<HTMLInputElement>(null);
+
   const inputChange = (e: any) => {
-    setTextToTranslate(Translator(e.target.value, getUnicodeMappings(), false));
-    setKeyToTranslate(Translator(e.target.value, getSoundMappings(), true));
+  };
+
+  const onTranslateHandler = () => {
+    if (inputRef.current?.value) {
+      const text = Translator(inputRef.current?.value,getUnicodeMappings(),false);
+      const key = Translator(inputRef.current?.value, getSoundMappings(), true);
+      setTextToTranslate(text);
+      setKeyToTranslate(key);
+    }
   };
 
   console.log(textToTranslate);
   return (
     <div className={styles.translator}>
-      <input className={styles.input} type="text" onChange={inputChange} />
-
+      <h1 className={styles.translate}>Tranlsator</h1>
+      <input className={styles.input} type="text" onChange={inputChange} ref={inputRef}/>
+      <button className={styles.btn} onClick={onTranslateHandler}>
+        Translate
+      </button>
       <div id={styles.keyContent}>
         {keyToTranslate.length > 0 && keyToTranslate}
       </div>
