@@ -117,7 +117,7 @@ export const getSoundMappings = (): IMappings => {
         <p className={styles.key}>
           {' '}
           'e' sounds were normally written in Egyptian. Leave this out of your
-          name or use the hyroglyph for 'i' sounds as seen below.
+          name or use the hieroglyph for 'i' sounds as seen below.
         </p>
       </div>
     ),
@@ -244,7 +244,7 @@ export const getSoundMappings = (): IMappings => {
       <div>
         <p className={styles.key}>
           Use the &#78193; for 'w' sounds as in wind, what and where. This can
-          also be used for 'u' as there is no equibalent in ancient Egyptian for
+          also be used for 'u' as there is no equivalent in ancient Egyptian for
           this.
         </p>
       </div>
@@ -253,7 +253,7 @@ export const getSoundMappings = (): IMappings => {
       <div>
         <p className={styles.key}>
           Use the &#78193; for 'w' sounds as in wind, what and where. This can
-          also be used for 'u' as there is no equibalent in ancient Egyptian for
+          also be used for 'u' as there is no equivalent in ancient Egyptian for
           this.
         </p>
       </div>
@@ -261,7 +261,7 @@ export const getSoundMappings = (): IMappings => {
     x: (
       <div>
         <p className={styles.key}>
-          Use the &#78753; and &#78580; hieroglyh for 'x' sounds which are made
+          Use the &#78753; and &#78580; hieroglyph for 'x' sounds which are made
           up of 2 sounds - 'k' and 's'. Use it for box, alex and extra.
         </p>
       </div>
@@ -269,7 +269,7 @@ export const getSoundMappings = (): IMappings => {
     y: (
       <div>
         <p className={styles.key}>
-          use either the &#78284; or &#78829; hieroglyh for long 'y' sounds as
+          use either the &#78284; or &#78829; hieroglyph for long 'y' sounds as
           in Yvonne and Mary.
         </p>
       </div>
@@ -277,8 +277,168 @@ export const getSoundMappings = (): IMappings => {
     z: (
       <div>
         <p className={styles.key}>
-          use the &#78467; hieroglyh for 'z' sounds as in zebra, Xander, Xerox,
+          use the &#78467; hieroglyph for 'z' sounds as in zebra, Xander, Xerox,
           Suzanne, please and boys
+        </p>
+      </div>
+    ),
+    amun: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    amumra: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    anubis: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    aten: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    bast: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    bastet: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    geb: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    hapi: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    horus: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    isis: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    kheperi: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    maat: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    nut: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    osiris: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    ptah: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    ra: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    set: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    shu: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    sobek: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
+        </p>
+      </div>
+    ),
+    thoth: (
+      <div>
+        <p className={styles.key}>
+          Gods have their own spellings most of the time, therefore the spelling
+          can be different. As shown below.
         </p>
       </div>
     ),
@@ -339,6 +499,9 @@ export const getUnicodeMappings = (): IMappings => {
       <p className={styles.hieroglyph}>&#78283; &#78799; &#78358; &#77869;</p>
     ),
     bastet: (
+      <p className={styles.hieroglyph}>&#78767; &#78799; &#78799; &#77904;</p>
+    ),
+    bast: (
       <p className={styles.hieroglyph}>&#78767; &#78799; &#78799; &#77904;</p>
     ),
     geb: <p className={styles.hieroglyph}>&#78189; &#78016; &#77869;</p>,
