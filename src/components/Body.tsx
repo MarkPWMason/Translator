@@ -1,8 +1,16 @@
-import React from 'react';
-import styles from './Body.module.css';
+import React, { useRef } from 'react';
+import InputPage from './InputPage';
+import PageBreak from './PageBreak';
+import TranslationPage from './TranslationPage';
 
 const Body = () => {
-  return <div className={styles.container}>Body</div>;
+  return (
+    <React.Fragment>
+      <InputPage />
+      <PageBreak />
+      <TranslationPage/>
+    </React.Fragment>
+  );
 };
 
 export default Body;

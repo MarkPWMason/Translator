@@ -1,4 +1,5 @@
 .header {
   min-height: 50px;
-  background: lightcyan;
+  background: #B9FFEE;
+  filter: blur(30px);
 }

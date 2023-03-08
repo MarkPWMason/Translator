@@ -1,6 +1,6 @@
-import { getStringMappings } from './Translator';
+import { getSoundMappings } from './Translator';
 
 test('String Mappings is returned', () => {
-  const stringMappings = getStringMappings();
+  const stringMappings = getSoundMappings();
   expect(Object.keys(stringMappings).length).toBeGreaterThan(0);
 });

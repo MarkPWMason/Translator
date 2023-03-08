@@ -1,3 +1,3 @@
 export default interface IMappings {
-  [key: string]: string;
+  [key: string]: any;
 }
