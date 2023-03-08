@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import styles from './Body.module.css';
 
 var Scroll = require('react-scroll');
@@ -13,21 +14,21 @@ export const InputPage = () => {
         <div className={styles.title}>
           <h1>Hieroglyph Translator</h1>
         </div>
-        {/* <Link
-          className="btn"
+        <Link
+          className={styles.btn}
           activeClass="active"
-          to="translationPageBtn"
+          to="translator"
           spy={true}
           smooth={true}
           duration={1000}
           id="inputPageBtn"
         >
           Start Translation
-        </Link> */}
-        <button className={styles.btn} onClick={() => {
+        </Link>
+        {/* <button className={styles.btn} onClick={() => {
         scroll.scrollToBottom({
         });
-      }}>To Translator</button>
+      }}>To Translator</button> */}
       </div>
     </div>
   );

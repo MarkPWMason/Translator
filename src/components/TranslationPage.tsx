@@ -29,11 +29,12 @@ export const TranslationPage = () => {
   console.log(textToTranslate);
   return (
     <div className={styles.translator}>
-      <h1 className={styles.translate}>Tranlsator</h1>
-      <input className={styles.input} type="text" onChange={inputChange} ref={inputRef}/>
+      <h1 id="translator" className={styles.translate}>Tranlsator</h1>
+      <input className={styles.input} type="text" onChange={inputChange} ref={inputRef} placeholder="Input text here. Then press Translate below"/>
       <button className={styles.btn} onClick={onTranslateHandler}>
         Translate
       </button>
+      <p className={styles.keyDesc}>Below will explain how different Hieroglyhs work. *Multple use hieroglyphs will be split by '[]'*</p>
       <div id={styles.keyContent}>
         {keyToTranslate.length > 0 && keyToTranslate}
       </div>
