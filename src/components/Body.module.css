@@ -115,7 +115,7 @@
 
 #translatedContent {
   width: 80%;
-  height: 300px;
+  height: 350px;
   margin-top: 30px;
   margin-bottom: 20px;
   background-color: #eecb8c;
@@ -133,7 +133,7 @@
 
 #keyContent {
   width: 80%;
-  height: 100px;
+  height: 200px;
 
   display: flex;
   flex-wrap: wrap;
@@ -358,7 +358,7 @@
   }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1100px) {
+@media only screen and (min-width: 800px) and (max-width: 2000px) {
   #camelImage1 {
     position: absolute;
     bottom: 0px;
@@ -378,7 +378,7 @@
   }
 
   #translatedContent {
-    height: 300px;
+    height: 250px;
     width: 80%;
     margin: 10px auto 0 auto;
     overflow: scroll;
@@ -390,7 +390,7 @@
 
   #keyContent {
     width: 80%;
-    height: 150px;
+    height: 130px;
 
     margin-top: 10px;
 
