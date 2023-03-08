@@ -2,10 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import styles from './Body.module.css';
 
-var Scroll = require('react-scroll');
-
 export const InputPage = () => {
-  var scroll = Scroll.animateScroll;
   return (
     <div className={styles.intro}>
       <img src="/images/camel (1).webp" alt="" id={styles.camelImage1}/>

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import InputPage from './InputPage';
 import PageBreak from './PageBreak';
 import TranslationPage from './TranslationPage';
